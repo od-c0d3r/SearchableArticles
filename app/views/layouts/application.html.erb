@@ -7,10 +7,12 @@
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
     <%= javascript_importmap_tags %>
   </head>
 
   <body>
     <%= yield %>
+    <%= button_to "logout", destroy_user_session_path, method: :delete  if user_signed_in? %>
   </body>
 </html>
