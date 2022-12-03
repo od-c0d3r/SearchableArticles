@@ -1,6 +1,10 @@
 class Article < ApplicationRecord
   belongs_to :user
 
-  include Elasticsearch::Model
-  include Elasticsearch::Model::Callbacks
+  # include Searchable
+
+  searchable do
+    text    :title, :body
+    integer :user_id
+  end
 end

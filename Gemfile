@@ -75,6 +75,5 @@ gem "devise", "~> 4.8"
 
 gem "faker", "~> 3.0"
 
-gem "elasticsearch-rails", "~> 7.2"
-
-gem "elasticsearch-model", "~> 7.2"
+gem 'sunspot_rails'
+gem 'sunspot_solr'
