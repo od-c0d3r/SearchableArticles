@@ -52,7 +52,7 @@ Open `http://localhost:PORT` to view it in your browser.
   - Steps to overcome the issue:
     - Since OpenSSL is connunicationg directly with Ruby, tried to change Rails/Ruby versions.
     - Tried to host Elasticseach on local instead of docker.
-  - Changed the search enigne technique to use [sunspot](https://github.com/sunspot/sunspot) instead of [elasticsearch-rails](https://github.com/elastic/elasticsearch-rails), but it was too late to develop the new tool
+    - Changed the search enigne technique to use [sunspot](https://github.com/sunspot/sunspot) instead of [elasticsearch-rails](https://github.com/elastic/elasticsearch-rails), but it was too late to develop the new tool
   - Had a basic idea on how to implement the dashboard using elasticseach and turbo-rails to show instat results on the page/dashboard.
 
 ## License
