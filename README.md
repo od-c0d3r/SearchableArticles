@@ -50,7 +50,7 @@ Open `http://localhost:PORT` to view it in your browser.
     - `Article.__elasticsearch__.create_index!`
 
   - Steps to overcome the issue:
-    - Since OpenSSL is connunicationg directly with Ruby, tried to change Rails/Ruby versions.
+    - Since OpenSSL is communicating directly with Ruby, tried to change Rails/Ruby versions.
     - Tried to host Elasticseach on local instead of docker.
     - Changed the search enigne technique to use [sunspot](https://github.com/sunspot/sunspot) instead of [elasticsearch-rails](https://github.com/elastic/elasticsearch-rails), but it was too late to develop the new tool
   - Had a basic idea on how to implement the dashboard using elasticseach and turbo-rails to show instat results on the page/dashboard, but the above issues prevented the app development progress.
